@@ -1,0 +1,84 @@
+/* The styles for the elements */
+body { 
+    background-color: #444444;
+    font-family: Calibri;
+    font-size: 85%;
+    color:white;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 1500px;
+}
+h1 {     
+    font-size: 200%;
+    color: whitesmoke;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 130%;
+    color: whitesmoke;
+    margin-bottom: .5em;    
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    padding-top: .3em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+input[type="submit"]{
+	background: blue;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 40px;
+	text-shadow: none;
+}
+input[type="submit"]:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* The styles for a table */
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;   
+}
+th {
+    border: 1px solid;
+    text-align: left;
+    padding: 15px;
+}
+td {
+    border: 1px solid lightgray;
+
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even){background-color: dimgray;}
+
+.right {
+    text-align: right;
+}
